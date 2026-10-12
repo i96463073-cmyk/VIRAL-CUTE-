@@ -12,8 +12,8 @@ import {
   Copy,
   Check,
 } from 'lucide-react';
-import { generateProjectZip } from '../utils/generateZip';
-import { playSound } from '../utils/sound';
+import { generateProjectZip } from './generateZip';
+import { playSound } from './sound';
 
 interface DownloadZipModalProps {
   isOpen: boolean;
