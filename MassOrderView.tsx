@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import confetti from 'canvas-confetti';
 import { Layers, AlertCircle, CheckCircle2, Play } from 'lucide-react';
-import { Service, Order, ProviderConfig } from '../types';
-import { playSound } from '../utils/sound';
+import { Service, Order, ProviderConfig } from './types';
+import { playSound } from './sound';
 
 interface MassOrderViewProps {
   services: Service[];
