@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Code2, Copy, Check } from 'lucide-react';
-import { playSound } from '../utils/sound';
+import { playSound } from './sound';
 
 interface ApiDocsViewProps {
   soundEnabled: boolean;
