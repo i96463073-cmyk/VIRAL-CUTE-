@@ -15,9 +15,9 @@ import {
   EyeOff,
   ClipboardPaste,
 } from 'lucide-react';
-import { ProviderConfig, Service } from '../types';
-import { SmmApiService } from '../services/apiProvider';
-import { playSound } from '../utils/sound';
+import { ProviderConfig, Service } from './types';
+import { SmmApiService } from './apiProvider';
+import { playSound } from './sound';
 
 interface ApiProviderViewProps {
   provider: ProviderConfig;
