@@ -1,4 +1,4 @@
-import { Service } from '../types';
+import { Service } from './types';
 
 export interface ProviderResponse<T = unknown> {
   success: boolean;
@@ -287,4 +287,4 @@ export class SmmApiService {
       };
     });
   }
-}
+    }
