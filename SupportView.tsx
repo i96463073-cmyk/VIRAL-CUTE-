@@ -4,8 +4,8 @@ import {
   Send,
   Plus,
 } from 'lucide-react';
-import { SupportTicket } from '../types';
-import { playSound } from '../utils/sound';
+import { SupportTicket } from './types';
+import { playSound } from './sound';
 
 interface SupportViewProps {
   soundEnabled: boolean;
