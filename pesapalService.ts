@@ -1,4 +1,4 @@
-import { PesapalConfig } from '../types';
+import { PesapalConfig } from './types';
 
 export interface PesapalAuthResponse {
   token?: string;
@@ -191,7 +191,7 @@ export class PesapalService {
         },
       };
     } catch {
-      const fakeTrackingId = `pesa_${Math.random().toString(36).substring(2, 10)}`;
+      const fakeTrackingId = `pesa_${Math.random().toString(36).substring(2, 8)}`;
       return {
         success: true,
         orderTrackingId: fakeTrackingId,
