@@ -10,8 +10,8 @@ import {
   Smartphone,
   FolderArchive,
 } from 'lucide-react';
-import { ProviderConfig, PesapalConfig } from '../types';
-import { playSound } from '../utils/sound';
+import { ProviderConfig, PesapalConfig } from './types';
+import { playSound } from './sound';
 
 interface NavbarProps {
   balance: number;
