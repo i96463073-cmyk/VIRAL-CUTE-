@@ -9,9 +9,9 @@ import {
   ShoppingBag,
   ArrowRight,
 } from 'lucide-react';
-import { Service } from '../types';
+import { Service } from './types';
 import { PlatformBadge } from './PlatformIcons';
-import { playSound } from '../utils/sound';
+import { playSound } from './sound';
 
 interface ServicesViewProps {
   services: Service[];
