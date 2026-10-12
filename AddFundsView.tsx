@@ -14,9 +14,9 @@ import {
   EyeOff,
   History,
 } from 'lucide-react';
-import { PesapalConfig, Transaction } from '../types';
-import { PesapalService } from '../services/pesapalService';
-import { playSound } from '../utils/sound';
+import { PesapalConfig, Transaction } from './types';
+import { PesapalService } from './pesapalService';
+import { playSound } from './sound';
 
 interface AddFundsViewProps {
   balance: number;
