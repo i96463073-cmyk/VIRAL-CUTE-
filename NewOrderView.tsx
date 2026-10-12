@@ -15,9 +15,9 @@ import {
   Calculator,
   ShieldAlert,
 } from 'lucide-react';
-import { Platform, Service, Order, ProviderConfig } from '../types';
+import { Platform, Service, Order, ProviderConfig } from './types';
 import { PlatformBadge } from './PlatformIcons';
-import { playSound } from '../utils/sound';
+import { playSound } from './sound';
 
 interface NewOrderViewProps {
   services: Service[];
