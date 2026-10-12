@@ -11,9 +11,9 @@ import {
   ShieldCheck,
   UserCheck,
 } from 'lucide-react';
-import { Order, OrderStatus } from '../types';
+import { Order, OrderStatus } from './types';
 import { PlatformBadge } from './PlatformIcons';
-import { playSound } from '../utils/sound';
+import { playSound } from './sound';
 
 interface OrdersViewProps {
   orders: Order[];
