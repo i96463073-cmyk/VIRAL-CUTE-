@@ -10,7 +10,7 @@ import {
   HelpCircle,
   ShoppingBag,
 } from 'lucide-react';
-import { playSound } from '../utils/sound';
+import { playSound } from './sound';
 
 export type NavTab =
   | 'new-order'
