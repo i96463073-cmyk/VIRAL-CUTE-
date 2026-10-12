@@ -1,18 +1,18 @@
 import { useState, useEffect } from 'react';
-import { Navbar } from './components/Navbar';
-import { Sidebar, NavTab } from './components/Sidebar';
-import { NewOrderView } from './components/NewOrderView';
-import { MassOrderView } from './components/MassOrderView';
-import { ServicesView } from './components/ServicesView';
-import { OrdersView } from './components/OrdersView';
-import { ApiProviderView } from './components/ApiProviderView';
-import { ApiDocsView } from './components/ApiDocsView';
-import { AddFundsView } from './components/AddFundsView';
-import { SupportView } from './components/SupportView';
-import { DownloadZipModal } from './components/DownloadZipModal';
-import { INITIAL_SERVICES, INITIAL_ORDERS } from './data/mockServices';
+import { Navbar } from './Navbar';
+import { Sidebar, NavTab } from './Sidebar';
+import { NewOrderView } from './NewOrderView';
+import { MassOrderView } from './MassOrderView';
+import { ServicesView } from './ServicesView';
+import { OrdersView } from './OrdersView';
+import { ApiProviderView } from './ApiProviderView';
+import { ApiDocsView } from './ApiDocsView';
+import { AddFundsView } from './AddFundsView';
+import { SupportView } from './SupportView';
+import { DownloadZipModal } from './DownloadZipModal';
+import { INITIAL_SERVICES, INITIAL_ORDERS } from './mockServices';
 import { Service, Order, ProviderConfig, PesapalConfig, Transaction } from './types';
-import { playSound } from './utils/sound';
+import { playSound } from './sound';
 
 export function App() {
   const [currentTab, setCurrentTab] = useState<NavTab>('new-order');
